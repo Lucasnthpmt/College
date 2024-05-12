@@ -2,7 +2,7 @@
 ;; Prof. Ausberto S. Castro Vera       (ascv@uenf.br)
 ;; UENF-CCT-LCMAT - Curso de Ciencia da Computacao
 ;; Abril 2024
-;; Aluno: Lucas Nathã Monteiro Pimentel de Souza <===========  escreva seu nome aqui
+;; Aluno: Lucas Nathã Monteiro Pimentel de Souza
 ;;
 #lang racket      ;; define a linguagem default
 ; ------------------------------------------------
