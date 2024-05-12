@@ -1,0 +1,66 @@
+;; Introdução à Linguagem Scheme-Racket
+;; Prof. Ausberto S. Castro Vera       (ascv@uenf.br)
+;; UENF-CCT-LCMAT - Curso de Ciencia da Computacao
+;; 2024
+;; Aluno: Lucas Nathã Monteiro Pimentel de Souza
+;;
+#lang racket      ;; define a linguagem default
+; ------------------------------------------------
+(newline)
+(display "UENF-CCT-LCMAT-CC, 2024")
+(newline)
+(display "Paradigmas de Linguagens de Programacao (Prof. Ausberto Castro)")
+(newline)
+(display "Sou o aluno(a): Lucas Nathã Monteiro Pimentel de Souza")
+(newline)
+;;
+;;
+;Exercicio da lista 14.1
+
+(display "510 > 333? ") (> 5 3)
+(display "510 = 510.1? ") (= 510 510.1)
+(display "500 = 500? ") (= 500 500)
+(display "not(500 = 500)? ") (not (= 500 500))
+(display "not(500 > 600)? ") (not (> 500 600))
+
+
+(newline)
+(newline)
+(display "Operadores lógicos...   ")
+(newline)
+
+(let ((x 3))
+  (and (> x 2) (< x 4)))
+
+(let ((y 5))
+  (and (> y 2) (< y 4)))
+
+(newline)
+(display "Tabela de valores AND")
+(newline)
+(display " T and T = ")  (and #t #t)
+(newline)
+(display " T and F = ")  (and #t #f)
+(newline)
+(display " F and F = ")  (and #f #f)
+
+;;------------------
+(newline)
+(display "Tabela de valores OR")
+(newline)
+(display " T or T = ")   (or #t #t)
+(newline)
+(display " T or F = ")   (or #t #f)
+(newline)
+(display " F or F = ")   (or #f #f)
+;;-----------
+(newline)
+(let ((x 3))
+  (or (> x 2) (< x 8)))
+
+(let ((y 10))
+  (or (> y 20) (< y 7)))
+;
+(newline)
+(display " not(5 > 3) = ")  (not (> 5 3))
+(display " not(10 > 25) = ") (not (> 10 25))
